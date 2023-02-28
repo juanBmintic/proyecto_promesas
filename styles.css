@@ -9,6 +9,8 @@
   
   }
 
+
+
 /* font-face se utiliza para incluir al proyecto tipos de letras descargados y guardados de forma local 
 y darle un nombre para trabajarlo dentro del proyecto*/
  @font-face{
@@ -62,5 +64,164 @@ promesas */
 
 
 
+  
+.v2 {
+  background-image: linear-gradient( 0deg,
+  rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)
+  )  ,url(/imagenes/back2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  }
+.v2 .sn{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  width: auto;
+  height: auto;
+}
+ .sn h1{
+
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  font-size: 50px;
+  padding-bottom: 12px;
+  color: rgb(247, 91, 0);
+  text-shadow: 10px 4px 10px rgb(0, 0, 0);
+
+  
+  
+ }
+
+ .sn p{
+
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  font-size: 25px;
+  width: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 10px 4px 10px rgb(0, 0, 0);
+  
+ }
 
 
+  .v2 .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    
+  }
+
+  
+  
+  .mision, .vision, .valores {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.068);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .mision:hover, .vision:hover, .valores:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgb(255, 136, 0);
+  }
+  
+  .card .icon {
+    
+    width: auto;
+    height: 98px;
+    background-color: rgba(255, 0, 0, 0.918);
+}
+
+.cart-group .card .mision, .vision, .valores {
+ 
+  width: 300px;
+  height: auto;
+}
+
+.cart-group .card .mision img{
+
+  width: 120px;
+  height: 120px;
+
+}
+
+.cart-group .card .vision img{
+  width: 120px;
+  height: 120px;
+}
+
+.cart-group .card .valores img{
+  width: 120px;
+  height: 120px;
+}
+
+
+
+.card .mision p{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  text-justify: auto ;
+  font-family: 'Roboto Serif', serif;
+}
+
+.card .vision p{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  text-justify: auto ;
+  font-family: 'Roboto Serif', serif;
+}
+
+.card .valores p{
+
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  text-justify: auto ;
+  font-family: 'Roboto Serif', serif;
+
+}
+
+
+
+.card .valores h2{
+  font-size: 22px;
+  color: rgb(255, 251, 0);
+  text-shadow: 0px 0px 10px rgb(0, 24, 236);
+}
+
+.card .mision h2{
+  font-size: 22px;
+  color: rgb(255, 251, 0);
+  text-shadow: 0px 0px 10px rgb(0, 24, 236);
+}
+
+.card .vision h2{
+  font-size: 22px;
+  color: rgb(255, 251, 0);
+  text-shadow: 0px 0px 10px rgb(0, 24, 236);
+}

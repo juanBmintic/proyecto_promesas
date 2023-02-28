@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="ventana2.css">
+  <link rel="stylesheetf" href="ventana2.css">
   <link rel="stylesheet" href="header.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,600;8..144,800;8..144,900&display=swap');
+  </style>
   <title>proyecto futbol</title>
 </head>
   <body>
@@ -15,7 +18,7 @@
         <nav>
           <ul class="nav-link1">
             <li><a href="#">INICIO</a></li>
-            <li><a href="/index.html/v2">SOBRE NOSOTROS</a></li>
+            <li><a href="#sobrenosotros">SOBRE NOSOTROS</a></li>
           </ul>
         </nav>
       
@@ -30,43 +33,50 @@
       </div>
     </header>
 
+    <main>
 
     <section id="v1">
-    <div class="wave">
-      <img src="/imagenes/wave.svg" alt="olas">
+      <div class="wave">
+        <img src="/imagenes/wave.svg" alt="olas">
       </div>
-    </div>
-    <div class="titulo">
+
+      <div class="titulo">
       <h1>promesas del caribe</h1>
+      </div>
+    </section>
+
+    <section class="v2" id="sobrenosotros" >
+      <div class="sn"><h1>SOBRE NOSOTROS</h1>
+      <p>El club deportivo Promesas del caribe es una organizacion sin animo de lucro que fomenta activamente las actividades deportivas,
+        insentivando la actividad fisica en los niños y jovenes, fortaleciendo habilidades fundamentales tanto fisicas como mentales, creando campeones y jovenes de exito.
+      </p></div>
+      <P></P>
+
+      <div class="cart-group">
+      <div class="card">
+        <div class="mision">
+          <img src="/imagenes/f1.svg" alt="1">
+          <h2>Misión</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel risus nulla. Nulla facilisi. Donec ac semper lacus.</p>
+        </div>
+
+        <div class="vision">
+          <img src="/imagenes/f2.svg" alt="556">
+          <h2>visión</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel risus nulla. Nulla facilisi. Donec ac semper lacus.</p>
+        </div>
+
+        <div class="valores">
+          <img src="/imagenes/f3.svg" alt="32">
+          <h2>valores</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel risus nulla. Nulla facilisi. Donec ac semper lacus.</p>
+        </div>
+
+      </div>
+
     </div>
-   </section>
-
-  <section class="v2">
-
-    <div class="nosotros"><h1 class="title">sobre nosotros</h1>
     </div>
-    
-        <div class="contenedor-cajas">
-          <div class="box">
-            <img src="/imagenes/f1.svg" alt="img1">
-            <h2>mision</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit harum iusto dolores at. Et.</p>
-          </div>
-
-          <div class="contenedor-cajas">
-            <div class="box">
-              <img src="/imagenes/f2.svg" alt="img2">
-              <h2>mision</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit harum iusto dolores at. Et.</p>
-          </div>
-
-            <div class="contenedor-cajas">
-              <div class="box">
-                <img src="/imagenes/f3.svg" alt="img3">
-                <h2>mision</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit harum iusto dolores at. Et.</p>
-            </div>
-  </section>
- 
+    </section>
+  </main>
   </body>
 </html>
